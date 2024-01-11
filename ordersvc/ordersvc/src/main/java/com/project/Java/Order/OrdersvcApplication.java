@@ -1,4 +1,4 @@
-package com.project.ordersvc;
+package com.project.Java.Order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
