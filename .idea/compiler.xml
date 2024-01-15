@@ -7,14 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ordersvc" />
+        <module name="discoverysvc" />
         <module name="productsvc" />
         <module name="inventorysvc" />
-        <module name="ordersvc" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="discoveryservice" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="discoveryservice" options="-parameters" />
+      <module name="discoverysvc" options="-parameters" />
       <module name="inventorysvc" options="-parameters" />
       <module name="ordersvc" options="-parameters" />
       <module name="productsvc" options="-parameters" />
