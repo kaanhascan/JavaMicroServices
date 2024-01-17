@@ -20,6 +20,7 @@
         <module>productsvc/productsvc</module>
         <module>ordersvc/ordersvc</module>
         <module>discoverysvc</module>
+        <module>api-gateway</module>
     </modules>
 
     <properties>
